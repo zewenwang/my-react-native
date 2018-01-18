@@ -25,7 +25,7 @@ class ReactApp : Application() {
         ReactInstanceManager.builder()
             .setApplication(this)
             .setBundleAssetName("index.android.bundle")
-            .setJSMainModulePath("index.android")
+            .setJSMainModulePath("index")
             .addPackage(MainReactPackage())
             .setUseDeveloperSupport(BuildConfig.DEBUG)
             .setInitialLifecycleState(LifecycleState.RESUMED)

@@ -8,7 +8,7 @@ class HelloWorld extends Component {
             //<Text style={styles.hello}>Hello World</Text>
             // </View>
             <View>
-                <Text>Hello World</Text>
+                <Text>Hello</Text>
             </View>
         );
     }
@@ -29,4 +29,4 @@ const styles = StyleSheet.create({
     }
 });
 
-AppRegistry.registerComponent('HelloWorld', () => HelloWorld);
+// AppRegistry.registerComponent('HelloWorld', () => HelloWorld);

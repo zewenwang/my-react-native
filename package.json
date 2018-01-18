@@ -6,7 +6,11 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
+    "@types/react": "^16.0.26",
+    "fbjs": "^0.8.16",
     "react": "16.0.0",
-    "react-native": "0.50.4"
+    "react-native": "0.50.4",
+    "redux": "^3.7.2",
+    "watchman": "^1.0.0"
   }
 }
