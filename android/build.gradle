@@ -19,8 +19,11 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven() {
+            url "$rootDir/../node_modules/react-native/android"
+        }
     }
-    
+
 }
 
 task clean(type: Delete) {
