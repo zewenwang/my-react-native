@@ -8,7 +8,7 @@ import com.skeeter.myrn.activity.HelloActivity
  */
 object ReactRouter {
     private val mRouterTable = mapOf<Class<out Any>, String>(
-        HelloActivity::class.java to "ListTest"
+        HelloActivity::class.java to "HelloWorld"
     )
 
     @JvmStatic

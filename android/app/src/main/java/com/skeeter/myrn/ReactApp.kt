@@ -16,9 +16,13 @@ class ReactApp : Application() {
             private set
     }
 
+    init {
+        sInstance = this
+    }
+
     override fun onCreate() {
         super.onCreate()
-        sInstance = this
+//        SoLoader.init(this, false)
     }
 
     val mReactInstanceMgr: ReactInstanceManager by lazy {

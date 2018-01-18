@@ -1,4 +1,4 @@
 // import {AppRegistry} from 'react-native';
 
-// import 'HelloWorld'
-import 'ListTest'
+import './HelloWorld'
+import './ListTest'

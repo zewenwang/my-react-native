@@ -19,14 +19,14 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
-        background: 'red',
+        backgroundColor: 'red',
     },
     hello: {
         fontSize: 20,
-        textAlign: 'end',
+        textAlign: 'right',
         margin: 10,
-        background: 'blue',
+        backgroundColor: 'blue',
     }
 });
 
-// AppRegistry.registerComponent('HelloWorld', () => HelloWorld);
+AppRegistry.registerComponent('HelloWorld', () => HelloWorld);
